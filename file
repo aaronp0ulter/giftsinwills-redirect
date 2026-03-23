@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Redirecting...</title>
+  <script>
+    window.onload = function() {
+      var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+      if (isMobile) {
+        window.location.href = "https://fansnetwork.org/gifts-in-wills-mobile";
+      } else {
+        window.location.href = "https://fansnetwork.org/gifts-in-wills-desktop";
+      }
+    };
+  </script>
+</head>
+<body>
+  <p>Redirecting... If nothing happens, <a href="fansnetwork.org/manual-redirect">click here</a>.</p>
+</body>
+</html>
